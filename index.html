@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="./Assets/CSS/guesing.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-title">
+                <h2>Guessing Game</h2>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-field">
+                        <label for="guesing-number">Enter Gussing Number 1-5:</label>
+                        <input type="number" id="input-number" min="1" max="5" required>
+                        <button type="submit" class="btn">Check Result</button>
+                    </div>
+                </form>
+                <p class="massage"></p>
+                <p class="remainingAttempts"></p>
+                <p class="final-result"></p>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="./Assets/JS/guesing.js"></script>
+</body>
+</html>
